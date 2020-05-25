@@ -1,0 +1,67 @@
+//https://api.lufthansa.com/v1/operations/flightstatus/LH2039/2019-11-29
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [{
+                "Departure": {
+                    "AirportCode": "TXL",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2019-11-29T14:30"
+                    },
+                    "ScheduledTimeUTC": {
+                        "DateTime": "2019-11-29T13:30Z"
+                    },
+                    "TimeStatus": {
+                        "Code": "OT",
+                        "Definition": "Flight On Time"
+                    },
+                    "Terminal": {
+                        "Gate": "A07"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2019-11-29T15:40"
+                    },
+                    "ScheduledTimeUTC": {
+                        "DateTime": "2019-11-29T14:40Z"
+                    },
+                    "TimeStatus": {
+                        "Code": "OT",
+                        "Definition": "Flight On Time"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "2039"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "2039"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "FlightStatus": {
+                    "Code": "NA",
+                    "Definition": "No status"
+                },
+                "ServiceType": "Passenger"
+            }]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [{
+                "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/LH2039/2019-11-29",
+                "@Rel": "self"
+            }, {
+                "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                "@Rel": "related"
+            }]
+        }
+    }
+}

@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		886F1AD72368083C00A208DC /* wallpaper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 886F1AD62368083B00A208DC /* wallpaper.jpeg */; };
+		886F1ADB23680E2A00A208DC /* FlightImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 886F1ADA23680E2A00A208DC /* FlightImage.jpg */; };
+		8870B58423A1DD3A002B256D /* FlightScheduleSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870B58323A1DD3A002B256D /* FlightScheduleSearchService.swift */; };
+		8870B58723A1E857002B256D /* CustomSearchScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870B58623A1E857002B256D /* CustomSearchScheduleCell.swift */; };
+		88AFC47C236521C300CC082B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC47B236521C300CC082B /* AppDelegate.swift */; };
+		88AFC47E236521C300CC082B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC47D236521C300CC082B /* SceneDelegate.swift */; };
+		88AFC483236521C300CC082B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AFC481236521C300CC082B /* Main.storyboard */; };
+		88AFC485236521C900CC082B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AFC484236521C900CC082B /* Assets.xcassets */; };
+		88AFC488236521C900CC082B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AFC486236521C900CC082B /* LaunchScreen.storyboard */; };
+		88AFC4912365246E00CC082B /* mainViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC4902365246E00CC082B /* mainViewVC.swift */; };
+		88AFC495236527A600CC082B /* flightStatusOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC494236527A600CC082B /* flightStatusOptionsVC.swift */; };
+		88AFC49723652CF000CC082B /* searchForFlightsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC49623652CF000CC082B /* searchForFlightsVC.swift */; };
+		88AFC49923653C2900CC082B /* getAirportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC49823653C2900CC082B /* getAirportsVC.swift */; };
+		88AFC49D236545A300CC082B /* flightSearchByRouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC49C236545A300CC082B /* flightSearchByRouteVC.swift */; };
+		88AFC49F236545FD00CC082B /* flightSearchByNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC49E236545FD00CC082B /* flightSearchByNumberVC.swift */; };
+		88AFC4A12365D35300CC082B /* flightSearchByArrivalAirportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC4A02365D35300CC082B /* flightSearchByArrivalAirportVC.swift */; };
+		88AFC4A323660F5000CC082B /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AFC4A223660F5000CC082B /* ResultsVC.swift */; };
+		FC2D90C323A0D79E00E0481A /* GetAirportsWithGPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2D90C223A0D79E00E0481A /* GetAirportsWithGPS.swift */; };
+		FC2D90C523A0E63C00E0481A /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2D90C423A0E63C00E0481A /* AboutVC.swift */; };
+		FC9A5C32239CB9EE007DE7DB /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5C31239CB9EE007DE7DB /* NetworkHandler.swift */; };
+		FC9A5C34239CBD69007DE7DB /* FlightStatusStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5C33239CBD69007DE7DB /* FlightStatusStructure.swift */; };
+		FC9A5C36239CBFA5007DE7DB /* FlightStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A5C35239CBFA5007DE7DB /* FlightStatusService.swift */; };
+		FCB652B423A0345500761102 /* FlightStatusByRouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB652B323A0345500761102 /* FlightStatusByRouteService.swift */; };
+		FCC8333423A0B39600D7B91E /* FlightStatusByArrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8333323A0B39600D7B91E /* FlightStatusByArrival.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		886F1AD62368083B00A208DC /* wallpaper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpeg; sourceTree = "<group>"; };
+		886F1ADA23680E2A00A208DC /* FlightImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlightImage.jpg; sourceTree = "<group>"; };
+		8870B58323A1DD3A002B256D /* FlightScheduleSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleSearchService.swift; sourceTree = "<group>"; };
+		8870B58623A1E857002B256D /* CustomSearchScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchScheduleCell.swift; sourceTree = "<group>"; };
+		88AFC478236521C300CC082B /* FinalProjectNameLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectNameLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AFC47B236521C300CC082B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88AFC47D236521C300CC082B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88AFC482236521C300CC082B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88AFC484236521C900CC082B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88AFC487236521C900CC082B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88AFC489236521C900CC082B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AFC4902365246E00CC082B /* mainViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewVC.swift; sourceTree = "<group>"; };
+		88AFC494236527A600CC082B /* flightStatusOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flightStatusOptionsVC.swift; sourceTree = "<group>"; };
+		88AFC49623652CF000CC082B /* searchForFlightsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchForFlightsVC.swift; sourceTree = "<group>"; };
+		88AFC49823653C2900CC082B /* getAirportsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAirportsVC.swift; sourceTree = "<group>"; };
+		88AFC49C236545A300CC082B /* flightSearchByRouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flightSearchByRouteVC.swift; sourceTree = "<group>"; };
+		88AFC49E236545FD00CC082B /* flightSearchByNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flightSearchByNumberVC.swift; sourceTree = "<group>"; };
+		88AFC4A02365D35300CC082B /* flightSearchByArrivalAirportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flightSearchByArrivalAirportVC.swift; sourceTree = "<group>"; };
+		88AFC4A223660F5000CC082B /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
+		FC2D90C223A0D79E00E0481A /* GetAirportsWithGPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAirportsWithGPS.swift; sourceTree = "<group>"; };
+		FC2D90C423A0E63C00E0481A /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		FC9A5C31239CB9EE007DE7DB /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		FC9A5C33239CBD69007DE7DB /* FlightStatusStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusStructure.swift; sourceTree = "<group>"; };
+		FC9A5C35239CBFA5007DE7DB /* FlightStatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusService.swift; sourceTree = "<group>"; };
+		FCB652B323A0345500761102 /* FlightStatusByRouteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusByRouteService.swift; sourceTree = "<group>"; };
+		FCC8333323A0B39600D7B91E /* FlightStatusByArrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusByArrival.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88AFC475236521C300CC082B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		886F1AD52368081E00A208DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				886F1AD62368083B00A208DC /* wallpaper.jpeg */,
+				886F1ADA23680E2A00A208DC /* FlightImage.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8870B58223A1DD12002B256D /* FlightSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				8870B58323A1DD3A002B256D /* FlightScheduleSearchService.swift */,
+			);
+			path = FlightSchedule;
+			sourceTree = "<group>";
+		};
+		8870B58523A1E7DE002B256D /* CustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				8870B58623A1E857002B256D /* CustomSearchScheduleCell.swift */,
+			);
+			path = CustomTableView;
+			sourceTree = "<group>";
+		};
+		88AFC46F236521C300CC082B = {
+			isa = PBXGroup;
+			children = (
+				88AFC47A236521C300CC082B /* FinalProjectNameLess */,
+				88AFC479236521C300CC082B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88AFC479236521C300CC082B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88AFC478236521C300CC082B /* FinalProjectNameLess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88AFC47A236521C300CC082B /* FinalProjectNameLess */ = {
+			isa = PBXGroup;
+			children = (
+				8870B58523A1E7DE002B256D /* CustomTableView */,
+				8870B58223A1DD12002B256D /* FlightSchedule */,
+				FC2D90C123A0D76C00E0481A /* GetAirports */,
+				FC24A669239F82F100FA416E /* NetworkHandler */,
+				FC24A668239F82BA00FA416E /* FlightStatus */,
+				886F1AD52368081E00A208DC /* Images */,
+				88AFC48F236523C600CC082B /* View Controllers */,
+				88AFC47B236521C300CC082B /* AppDelegate.swift */,
+				88AFC47D236521C300CC082B /* SceneDelegate.swift */,
+				88AFC481236521C300CC082B /* Main.storyboard */,
+				88AFC484236521C900CC082B /* Assets.xcassets */,
+				88AFC486236521C900CC082B /* LaunchScreen.storyboard */,
+				88AFC489236521C900CC082B /* Info.plist */,
+			);
+			path = FinalProjectNameLess;
+			sourceTree = "<group>";
+		};
+		88AFC48F236523C600CC082B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				88AFC4902365246E00CC082B /* mainViewVC.swift */,
+				88AFC494236527A600CC082B /* flightStatusOptionsVC.swift */,
+				88AFC49623652CF000CC082B /* searchForFlightsVC.swift */,
+				88AFC49823653C2900CC082B /* getAirportsVC.swift */,
+				88AFC49C236545A300CC082B /* flightSearchByRouteVC.swift */,
+				FC2D90C423A0E63C00E0481A /* AboutVC.swift */,
+				88AFC49E236545FD00CC082B /* flightSearchByNumberVC.swift */,
+				88AFC4A02365D35300CC082B /* flightSearchByArrivalAirportVC.swift */,
+				88AFC4A223660F5000CC082B /* ResultsVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FC24A668239F82BA00FA416E /* FlightStatus */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A5C35239CBFA5007DE7DB /* FlightStatusService.swift */,
+				FC9A5C33239CBD69007DE7DB /* FlightStatusStructure.swift */,
+				FCB652B323A0345500761102 /* FlightStatusByRouteService.swift */,
+				FCC8333323A0B39600D7B91E /* FlightStatusByArrival.swift */,
+			);
+			path = FlightStatus;
+			sourceTree = "<group>";
+		};
+		FC24A669239F82F100FA416E /* NetworkHandler */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A5C31239CB9EE007DE7DB /* NetworkHandler.swift */,
+			);
+			path = NetworkHandler;
+			sourceTree = "<group>";
+		};
+		FC2D90C123A0D76C00E0481A /* GetAirports */ = {
+			isa = PBXGroup;
+			children = (
+				FC2D90C223A0D79E00E0481A /* GetAirportsWithGPS.swift */,
+			);
+			path = GetAirports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88AFC477236521C300CC082B /* FinalProjectNameLess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AFC48C236521C900CC082B /* Build configuration list for PBXNativeTarget "FinalProjectNameLess" */;
+			buildPhases = (
+				88AFC474236521C300CC082B /* Sources */,
+				88AFC475236521C300CC082B /* Frameworks */,
+				88AFC476236521C300CC082B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalProjectNameLess;
+			productName = FinalProjectNameLess;
+			productReference = 88AFC478236521C300CC082B /* FinalProjectNameLess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88AFC470236521C300CC082B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = NameLess;
+				TargetAttributes = {
+					88AFC477236521C300CC082B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 88AFC473236521C300CC082B /* Build configuration list for PBXProject "FinalProjectNameLess" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88AFC46F236521C300CC082B;
+			productRefGroup = 88AFC479236521C300CC082B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88AFC477236521C300CC082B /* FinalProjectNameLess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88AFC476236521C300CC082B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886F1ADB23680E2A00A208DC /* FlightImage.jpg in Resources */,
+				88AFC488236521C900CC082B /* LaunchScreen.storyboard in Resources */,
+				88AFC485236521C900CC082B /* Assets.xcassets in Resources */,
+				886F1AD72368083C00A208DC /* wallpaper.jpeg in Resources */,
+				88AFC483236521C300CC082B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88AFC474236521C300CC082B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB652B423A0345500761102 /* FlightStatusByRouteService.swift in Sources */,
+				FC9A5C36239CBFA5007DE7DB /* FlightStatusService.swift in Sources */,
+				88AFC49F236545FD00CC082B /* flightSearchByNumberVC.swift in Sources */,
+				88AFC47C236521C300CC082B /* AppDelegate.swift in Sources */,
+				FC9A5C34239CBD69007DE7DB /* FlightStatusStructure.swift in Sources */,
+				8870B58723A1E857002B256D /* CustomSearchScheduleCell.swift in Sources */,
+				88AFC49723652CF000CC082B /* searchForFlightsVC.swift in Sources */,
+				88AFC4A323660F5000CC082B /* ResultsVC.swift in Sources */,
+				FCC8333423A0B39600D7B91E /* FlightStatusByArrival.swift in Sources */,
+				8870B58423A1DD3A002B256D /* FlightScheduleSearchService.swift in Sources */,
+				88AFC495236527A600CC082B /* flightStatusOptionsVC.swift in Sources */,
+				88AFC4A12365D35300CC082B /* flightSearchByArrivalAirportVC.swift in Sources */,
+				FC9A5C32239CB9EE007DE7DB /* NetworkHandler.swift in Sources */,
+				88AFC49923653C2900CC082B /* getAirportsVC.swift in Sources */,
+				88AFC49D236545A300CC082B /* flightSearchByRouteVC.swift in Sources */,
+				FC2D90C523A0E63C00E0481A /* AboutVC.swift in Sources */,
+				FC2D90C323A0D79E00E0481A /* GetAirportsWithGPS.swift in Sources */,
+				88AFC4912365246E00CC082B /* mainViewVC.swift in Sources */,
+				88AFC47E236521C300CC082B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88AFC481236521C300CC082B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AFC482236521C300CC082B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88AFC486236521C900CC082B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88AFC487236521C900CC082B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88AFC48A236521C900CC082B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88AFC48B236521C900CC082B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88AFC48D236521C900CC082B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinalProjectNameLess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UHCL.FinalProjectNameLess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88AFC48E236521C900CC082B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinalProjectNameLess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UHCL.FinalProjectNameLess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88AFC473236521C300CC082B /* Build configuration list for PBXProject "FinalProjectNameLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AFC48A236521C900CC082B /* Debug */,
+				88AFC48B236521C900CC082B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88AFC48C236521C900CC082B /* Build configuration list for PBXNativeTarget "FinalProjectNameLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88AFC48D236521C900CC082B /* Debug */,
+				88AFC48E236521C900CC082B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88AFC470236521C300CC082B /* Project object */;
+}
